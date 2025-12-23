@@ -138,3 +138,4 @@ C:\Users\adamc\source\repos\MVCtest\MVCtest\obj\Debug\net8.0\refint\MVCtest.dll
 C:\Users\adamc\source\repos\MVCtest\MVCtest\obj\Debug\net8.0\MVCtest.pdb
 C:\Users\adamc\source\repos\MVCtest\MVCtest\obj\Debug\net8.0\MVCtest.genruntimeconfig.cache
 C:\Users\adamc\source\repos\MVCtest\MVCtest\obj\Debug\net8.0\ref\MVCtest.dll
+C:\Users\adamc\source\repos\MVCtest\MVCtest\obj\Debug\net8.0\MVCtest.sourcelink.json

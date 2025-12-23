@@ -7,7 +7,7 @@ namespace MVCtest.Data
     {
         public ApplicationDBContext()
         {
-       
+            
         }
         public ApplicationDBContext(DbContextOptions options) : base(options)
         {

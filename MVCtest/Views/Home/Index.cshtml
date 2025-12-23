@@ -4,5 +4,86 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<section id="Logins">
+
+    <div class="container-md">
+        <div class="text-center">
+            <h2>Login to database</h2>
+            <p class="lead text-muted">User login</p>
+        </div>
+
+
+        <div class="row.my-5.g-5.justify-content-around.allign-items-centre">
+            <div class="col-6.col-lg">
+                <p></p>
+            </div>
+
+            @* accordion *@
+            <div class="accordion" id="logins">
+          
+                <div class="accordion-item">
+                    
+                    <h2 class="accordion-header" id="heading-1">
+
+                        <button class="accordion-button d-block text-center" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#loginDetails" aria-expanded="true" aria-controls="loginDetails">User Login
+                        </button>
+
+                    </h2> 
+
+                    <div id="loginDetails" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="logins" > 
+
+                        <div class="accordion-body">
+
+                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+                        </div>
+
+                    </div>
+                    
+                </div>
+                @* end of accordion item One *@
+                <div class="accordion-item">
+
+                    <h2 class="accordion-header" id="heading-2">
+
+                        <button class="accordion-button d-block text-center" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#adminLoginDetails" aria-expanded="true" aria-controls="adminLoginDetails">
+                            Admin Login
+                        </button>
+
+                    </h2>
+
+                    <div id="adminLoginDetails" class="accordion-collapse collapse" aria-labelledby="heading-2" data-bs-parent="logins">
+
+                        <div class="accordion-body">
+
+                            <p>
+                                " Test Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+</section>
