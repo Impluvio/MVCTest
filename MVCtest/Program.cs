@@ -23,6 +23,15 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 });
 
+builder.Services.ConfigureApplicationCookie(option =>
+{
+    option.LoginPath = "/Identity/signIn";
+    option.AccessDeniedPath = "/Identity/AccesDenied";
+
+
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
