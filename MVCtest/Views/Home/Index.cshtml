@@ -2,6 +2,8 @@
     ViewData["Title"] = "Home Page";
 }
 
+@model SignupModel
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
 </div>
@@ -37,10 +39,23 @@
 
                         <div class="accordion-body">
 
-                            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            <form asp-controller="Identity" asp-action="Signup" method="post">
+
+                                <div class="form-group col-4">
+                                    <label asp-for="Email">Email: </label>
+                                    <input type="text" asp-for="Email" class="form-control" /> 
+
+                                </div>
+
+                                <div class="form-group col-4">
+                                    <label asp-for="Password">Password: </label>
+                                    <input type="text" asp-for="Password" class="form-control" />
+
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Signup!</button>
+
+                            </form>
 
                         </div>
 
